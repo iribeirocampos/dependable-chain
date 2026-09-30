@@ -1,0 +1,34 @@
+# Ignore all Java class files
+*.class
+
+# Ignore all Maven target folders
+**/target/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore IDE/project files
+/.idea/
+*.iml
+*.swp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+keys/
+
+# Local build helper (contains a local absolute path)
+node/cp.txt
+
+# Persisted blockchain state generated at runtime
+database/accounts.json
+database/smart_contracts.json
+
+# Project reports (contain student numbers) and course spec PDFs
+report*.pdf
+report*.tex
+SEC-*.pdf
+
+# Git Bash crash dumps
+*.stackdump
